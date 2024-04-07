@@ -15,3 +15,12 @@ cmake -B build -DCMAKE_EXPORT_COMPILE_COMMANDS=1
 cmake --build build
 ```
 
+## Features
+So far, this library supports the basic Vector and Matrix operations and LU decomposition for square matrix including inverse computation based on that.
+
+## TODO List
+- [ ] LU decomposition full support 
+- [ ] Cholesky decomposition 
+- [ ] QR decomposition
+- [ ] SVD decomposition
+        

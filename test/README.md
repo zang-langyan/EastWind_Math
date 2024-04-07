@@ -1,8 +1,8 @@
 # EastWind Math Test List 
 
 * [ ] Int
-* [ ] Float
-* [ ] Double
+* [x] Float
+* [x] Double
 
 ## Vec Test
 - [x] Constructors 
@@ -34,31 +34,31 @@
 - [x] Swap
 
 ## Mat Test
-- [ ] Constructors 
-    - [ ] Default
-    - [ ] Single Element
-    - [ ] Vec -> Single Column Mat
-    - [ ] Array
-    - [ ] Copy Constructor
-    - [ ] Move Constructor
+- [x] Constructors 
+    - [x] Default
+    - [x] Single Element
+    - [x] Vec -> Single Column Mat
+    - [x] Array
+    - [x] Copy Constructor
+    - [x] Move Constructor
 - [x] IO Stream
 - [x] Indexing
-- [ ] Transpose
-- [ ] Resize
-- [ ] Operator +
-    - [ ] Another Mat
-- [ ] Operator += 
-    - [ ] Another Mat
-- [ ] Operator -
-    - [ ] Another Mat
-- [ ] Operator -= 
-    - [ ] Another Mat
-- [ ] Operator * 
-    - [ ] Vec
-    - [ ] Mat
-- [ ] Norm
-    - [ ] Norm-1
-    - [ ] Norm-2
-    - [ ] Norm-p
-    - [ ] Norm-F
-    - [ ] Norm-Inf
+- [x] Transpose
+- [x] Resize
+- [x] Operator +
+    - [x] Another Mat
+- [x] Operator += 
+    - [x] Another Mat
+- [x] Operator -
+    - [x] Another Mat
+- [x] Operator -= 
+    - [x] Another Mat
+- [x] Operator * 
+    - [x] Vec
+    - [x] Mat
+- [x] Norm
+    - [x] Norm-1
+    - [x] Norm-2
+    - [x] Norm-p
+    - [x] Norm-F
+    - [x] Norm-Inf
