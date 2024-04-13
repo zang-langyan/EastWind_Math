@@ -5,7 +5,7 @@
  *
  * ============
  * Author: Langyan Zang
- * Last Modified: 2024-2-28
+ * Last Modified: 2024-4-13
  */
 #ifndef EW_VECTOR_H
 #define EW_VECTOR_H
@@ -231,6 +231,13 @@ public:
     return Vx.dot(Vy);
   }
 
+  friend Vec<T,n> operator*(const T& x, const Vec<T,n>& Vy){
+    Vec<T,n> ans;
+    for (size_t i = 0; i < n; ++i){
+      ans(i) = Vy(i)*x;
+    }
+    return ans;
+  }
 
 private:
   T _norm1(){
