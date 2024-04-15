@@ -14,8 +14,6 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/vendor/LAPACK)
 ####################################################
 
 
-
-
 ####################################################
 #[[ EastWind Math ]]
 set(EW_MATH_DIR ${PROJECT_SOURCE_DIR})

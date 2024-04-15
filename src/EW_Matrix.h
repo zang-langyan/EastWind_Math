@@ -179,7 +179,7 @@ public:
 //   * Pointer
 // ==========================================================================
 public:
-  auto get_ptr() const {
+  T* get_ptr() const {
     return F_mat;
   }
 
